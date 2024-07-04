@@ -15,34 +15,8 @@ import { Benefit, Recruiter } from "./Benefit";
 const partners: Array<BenefitType> = [
   {
     icon: <UserIcon className="h-6 w-6" />,
-    title: "Dr. Manish Kumar",
-    description: "Department - I.V.F (Embryologist scientist)",
-  },
-  {
-    icon: <UserIcon className="h-6 w-6" />,
-    title: "Dr. Amreen Singh",
-    description: "Department - I.V.F. Specialist (Gynaecologist)",
-  },
-  {
-    icon: <UserIcon className="h-6 w-6" />,
-    title: "Dr. Piyush Agrawal",
-    description: "Department - Surgical Oncologist",
-  },
-  {
-    icon: <UserIcon className="h-6 w-6" />,
-    title: "Dr. Naveen Kumar Maurya - M.B.B.S & M.D",
-    description:
-      "Department - Minimal Invasive Surgeory (General and laparoscopic Surgeon)",
-  },
-  {
-    icon: <UserIcon className="h-6 w-6" />,
-    title: "Dr. Naveen Mahur - M.B.B.S, M.S",
-    description: "Department - Ortho",
-  },
-  {
-    icon: <UserIcon className="h-6 w-6" />,
-    title: "Dr. Ankresh Rathour - M.B.B.S, M.D Medicine",
-    description: "Department - Gastro Medicine",
+    title: "NSDC",
+    description: "National Skill Development Corporation",
   },
 ];
 
