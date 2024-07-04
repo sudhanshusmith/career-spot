@@ -10,6 +10,11 @@ export interface BenefitType {
   title: string;
   description: string;
 }
+export interface RecruiterType {
+  icon: JSX.Element;
+  title: string;
+}
+
 export interface FacilityType {
   icon: JSX.Element;
   title: string;

@@ -1,4 +1,4 @@
-import Logo from "@/assets/logo.png";
+import Logo from "@/assets/logo1.jpg";
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
           <ul className="mt-2 flex  gap-6  md:gap-8">
             <li>
               <a
-                href="https://www.facebook.com/share/mh1qabDsLGPeQsL3/?mibextid=qi2Omg"
+                href="https://www.facebook.com/profile.php?id=61562043924972&mibextid=ZbWKwL"
                 rel="noreferrer"
                 target="_blank"
                 className="text-teal-700 transition hover:text-teal-700/75"
@@ -32,7 +32,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="https://www.instagram.com/gssmainpuri?igsh=cDlnMnpjMW9ub240"
+                href="https://www.instagram.com/csocare4?igsh=M3FpZ2twaGFndXB3"
                 rel="noreferrer"
                 target="_blank"
                 className="text-teal-700 transition hover:text-teal-700/75"
@@ -55,7 +55,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="https://x.com/gssmainpuri?t=qKCjDOvdKOHg-ib4ZwBpGA&s=08"
+                href="https://x.com/csocare4?t=-22w8Rf0fkPDQwE_LRpdLA&s=08"
                 rel="noreferrer"
                 target="_blank"
                 className="text-teal-700 transition hover:text-teal-700/75"
@@ -115,9 +115,10 @@ const Footer = () => {
             </li>
           </ul>
           <p className="my-5">
-            One of its kind 100 bed private hospital with all the facilities in
-            Mainpuri district. The only hospital in Uttar Pradesh Rural with an
-            air ambulance facility.
+            Career Spot is a place where students are helped to achieve their
+            dreams. This has been Developed keeping in mind the future of the
+            students. At career spot we take care of not only the education but
+            the overall development of the students' future.
           </p>
           <p>
             © 2024 All Right Reserved – Designed and Developed by Copzip
@@ -133,12 +134,20 @@ const Footer = () => {
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Contact Us</h4>
           <p className="my-5">
-            Asar Garhi, Agra Road, Near Sainik School, Mainpuri, Nouner, Uttar
-            Pradesh - 205001
+            Headquarter: Shree Vidhya Bhawan, Sector D 99, Sainath Nagar, Near
+            Bajaj Showroom, Bhopal, M.P - 462042
           </p>
-          <p>gsshospitalmnp@gmail.com</p>
-          <p>(+91)-73108 55234</p>
-          <p>(+91)-8937014497</p>
+          <p className="my-5">
+            State office: Near St. Thomas School, Behind Bank of Baroda, Bazar
+            Samiti, Patna, Bihar - 803101
+          </p>
+          <p className="my-5">
+            Corporate office: 112, Mezzanine Floor, Jaideep Complex, Zone - II,
+            MP Nagar, Bhopal, M.P - 462011
+          </p>
+          <p>support@csocare.com</p>
+          {/* <p>(+91)-73108 55234</p>
+          <p>(+91)-8937014497</p> */}
         </div>
       </div>
     </footer>

@@ -7,58 +7,48 @@ import {
   AcademicCapIcon,
 } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
-import cancer from "@/assets/cancer-awareness-ribbon-vector-2041419.webp";
-import ambulance from "@/assets/sticker-ambulance-emergency-care-life-vector-13942974.webp"
-import cardio from "@/assets/cardiology-department-rgb-color-icon-vector-33391072.webp"
-import Chairman from "@/assets/chairman.jpg";
-import surgery from "@/assets/medical-kit-with-cross-symbol-and-stethoscope-vector-35836689.webp"
-import gastro from "@/assets/stomach-with-man-line-icon-human-gastrointestinal-vector-30500348.webp"
+import notes from "@/assets/gallery/12.jpg";
+import preClass from "@/assets/gallery/1.jpg";
+import college from "@/assets/gallery/7.jpg";
+import extraClass from "@/assets/gallery/12.jpg";
+import hostel from "@/assets/gallery/8.jpg";
+import training from "@/assets/gallery/10.jpg";
+import jobs from "@/assets/gallery/29.jpg";
+import placement from "@/assets/gallery/36.jpg";
+import chairman from "@/assets/gallery/32.jpg";
 import Benefit from "./Benefit";
-import uro from "@/assets/kidney-line-icon-anatomy-and-biology-urology-vector-21591138.webp"
-import ortho from "@/assets/knee-injection-concept-vector-36803924.webp"
-import obstrian from "@/assets/obstetrician-icon-isolated-vector-47795641.webp"
-import icu from "@/assets/intensive-care-rgb-color-icon-vector-33391071.webp"
-import lapa from "@/assets/hysteroscopy-of-female-reproductive-system-treat-vector-43114268 (1).webp"
 const benefits: Array<FacilityType> = [
   {
-    icon: <img src={ambulance} className="h-8" />,
-    title: "Accident and Emergency Care",
+    icon: <img src={notes} className="h-8" />,
+    title: "Live Notes, Internet Lab",
   },
   {
-    icon: <img src={cancer} className="h-8" />,
-    title: "Cancer Care",
+    icon: <img src={preClass} className="h-8" />,
+    title: "Pre-Classes",
   },
   {
-    icon: <img src={cardio} className="h-8" />,
-    title: "Cardiology",
+    icon: <img src={college} className="h-8" />,
+    title: "College",
   },
   {
-    icon: <img src={gastro} className="h-8" />,
-    title: "Gastrointestinal Science",
+    icon: <img src={extraClass} className="h-8" />,
+    title: "Extra Classes",
   },
   {
-    icon: <img src={surgery} className="h-8" />,
-    title: "General Surgery",
+    icon: <img src={hostel} className="h-8" />,
+    title: "Hostel",
   },
   {
-    icon: <img src={icu} className="h-8" />,
-    title: "ICU & Critical Care",
+    icon: <img src={training} className="h-8" />,
+    title: "Industrial Training",
   },
   {
-    icon: <img src={lapa} className="h-8" />,
-    title: "Laparoscopic Surgery",
+    icon: <img src={jobs} className="h-8" />,
+    title: "Jobs",
   },
   {
-    icon: <img src={obstrian} className="h-8" />,
-    title: "Obstetrics and Gynaecology",
-  },
-  {
-    icon: <img src={ortho} className="h-8" />,
-    title: "Orthopaedics",
-  },
-  {
-    icon: <img src={uro} className="h-8" />,
-    title: "Urology",
+    icon: <img src={placement} className="h-8" />,
+    title: "Placement",
   },
 ];
 
@@ -91,12 +81,19 @@ const Benefits = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <HText>MORE THAN JUST HOSPITAL</HText>
+          <HText>Our Caring process</HText>
           <p className="my-5 text-sm">
-            We offer top-tier medical equipment, expert physicians, and
-            specialized treatments to guide you toward optimal health outcomes
-            effortlessly. We prioritize genuine concern for every patient under
-            our care.
+            The New Generation spends a lot of time on the internet browsing
+            through a lot of websites. They also spend time on social networks
+            like Facebook, Twitter, Whatsapp, Instagram, LinkedIn. etc. We are
+            providing them a platform where they could use the internet for
+            educational purposes. Many students spend most of their time on the
+            internet, so to utilize student's time, we have a CSO application
+            which is available in the play store. Here we give a calendar in
+            which students can track their upcoming assignments, exams, projects
+            and other important events, as well as a homework widget where
+            students can sync their assignments and receive reminders for
+            when they're due.
           </p>
         </motion.div>
 
@@ -125,7 +122,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
           <img
             className="mx-auto w-96 rounded-xl"
             alt="benefits-page-graphic"
-            src={Chairman}
+            src={chairman}
           />
 
           {/* DESCRIPTION */}
@@ -144,7 +141,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                   }}
                 >
                   <HText>
-                    CHAIRMAN's MESSAGE
+                    Scholarship
                     {/* <span className="text-primary-500">FIT</span> */}
                   </HText>
                 </motion.div>
@@ -163,23 +160,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Welcome to GSS Hospital, where we are dedicated to serving our
-                community with excellence in healthcare. Our mission is to
-                provide compassionate care, advanced treatments, and a healing
-                environment for all our patients. We are dedicated to providing
-                exceptional healthcare with compassion and expertise. We have a
-                team of highly skilled & experienced who deliver personalized
-                care tailored to the needs of each patient.
-              </p>
-              <p className="mb-5">
-                Our state-of-the-art facilities always ensure accurate diagnoses
-                and effective treatments. From routine check-ups to complex
-                surgeries, we are committed to your well-being every step of the
-                way.
-              </p>
-              <p className="mb-5">
-                Whether you are here for a consultation, procedure, or ongoing
-                treatment, you can trust us to deliver excellence in healthcare.
+              Our organization help those students who comes from Below the Poverty Line (BPL). Those who are talented but due to lack of resources their talents are not brought to the forefront. We help them get the government provided scholarships for their education. Our organization is already providing many students education with Scholarship according to Government Policies.
               </p>
             </motion.div>
 

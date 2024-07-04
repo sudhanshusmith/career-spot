@@ -5,11 +5,11 @@ import HomePageText from "@/assets/HomePageText.png";
 import HomePage from "@/assets/name.png";
 import HomePageGraphic from "@/assets/HomePageGraphic.png";
 
-import Sponsor1 from "@/assets/sponsors/1.png";
-import Sponsor2 from "@/assets/sponsors/2.png";
-import Sponsor3 from "@/assets/sponsors/3.png";
-import Sponsor4 from "@/assets/sponsors/4.png";
-import Homeimg1 from "@/assets/hospital.jpg";
+import Sponsor1 from "@/assets/gallery/1.jpg";
+import Sponsor2 from "@/assets/gallery/2.jpg";
+import Sponsor3 from "@/assets/gallery/3.jpg";
+import Sponsor4 from "@/assets/gallery/4.jpg";
+import Homeimg1 from "@/assets/gallery/7.jpg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 
@@ -45,15 +45,18 @@ const Home = ({ setSelectedPage }: Props) => {
               <div className="">
                 {/* before:absolute before:-top-10 before:-left-20 before:z-[-1]
                 md:before:content-evolvetext */}
-                <img alt="home-page-text" src={HomePage} />
+                <p className="text-3xl font-semibold">
+                  Career Spot: We Don't Believe In Making Engineers, We Believe
+                  In Making Careers
+                </p>
               </div>
             </div>
 
             <p className="mt-8 text-sm">
-              Exceptional healthcare facilities with a team of highly skilled &
-              experienced doctors, nurses, and staff. Our state-of-the-art
-              facilities are equipped with the latest medical technology.
-              Founded on a philosophy of patient-centered care.
+              Career Spot is a place where students are helped to achieve their
+              dreams. This has been Developed keeping in mind the future of the
+              students. At career spot we take care of not only the education
+              but the overall development of the students' future.
             </p>
           </motion.div>
 
@@ -70,7 +73,7 @@ const Home = ({ setSelectedPage }: Props) => {
             }}
           >
             <ActionButton setSelectedPage={setSelectedPage}>
-              Book Appointments
+              Spot your seat
             </ActionButton>
             {/* <AnchorLink
               className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"

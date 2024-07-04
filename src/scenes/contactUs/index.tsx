@@ -44,7 +44,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500">Book an</span> Appointment
+            <span className="text-primary-500">Book your</span> Spot
           </HText>
           {/* <p className="my-5">
             Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
@@ -100,7 +100,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 
               <input
                 className={inputStyles}
-                placeholder="Department"
+                placeholder="E-mail ID"
                 {...register("Department", {
                   required: true,
                   maxLength: 50,
