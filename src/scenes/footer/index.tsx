@@ -73,7 +73,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://api.whatsapp.com/"
+                href="https://wa.me/message/AGNS66MLIVVEM1"
                 rel="noreferrer"
                 target="_blank"
                 className="text-teal-700 transition hover:text-teal-700/75"

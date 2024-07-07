@@ -9,7 +9,7 @@ import Sponsor1 from "@/assets/gallery/1.jpg";
 import Sponsor2 from "@/assets/gallery/2.jpg";
 import Sponsor3 from "@/assets/gallery/3.jpg";
 import Sponsor4 from "@/assets/gallery/4.jpg";
-import Homeimg1 from "@/assets/gallery/7.jpg";
+import Homeimg1 from "@/assets/hero/1.jpg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 
