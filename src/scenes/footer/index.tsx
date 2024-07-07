@@ -146,8 +146,7 @@ const Footer = () => {
             MP Nagar, Bhopal, M.P - 462011
           </p>
           <p>support@csocare.com</p>
-          {/* <p>(+91)-73108 55234</p>
-          <p>(+91)-8937014497</p> */}
+          <p>(+91)-7480901288</p>
         </div>
       </div>
     </footer>

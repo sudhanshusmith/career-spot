@@ -1,7 +1,14 @@
 import HText from "@/shared/HText";
-import { BenefitType, RecruiterType } from "@/shared/types";
+import {
+  BenefitType,
+  RecruiterType,
+  PartnerType,
+  SelectedPage,
+} from "@/shared/types";
 import { UserIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
+
+import nsdc from "@/assets/partners/nsdc.jpg";
 
 import accenture from "@/assets/company/accenture.png";
 import ibm from "@/assets/company/ibm.png";
@@ -10,11 +17,11 @@ import mahindra from "@/assets/company/mahindra.png";
 import lnt from "@/assets/company/lnt.png";
 import tata from "@/assets/company/tata.png";
 import eicher from "@/assets/company/eicher.png";
-import { Benefit, Recruiter } from "./Benefit";
+import { Benefit, Partner, Recruiter } from "./Benefit";
 
-const partners: Array<BenefitType> = [
+const partners: Array<PartnerType> = [
   {
-    icon: <UserIcon className="h-6 w-6" />,
+    icon: <img src={nsdc} className="h-20" />,
     title: "NSDC",
     description: "National Skill Development Corporation",
   },
@@ -22,31 +29,31 @@ const partners: Array<BenefitType> = [
 
 const recruiters: Array<RecruiterType> = [
   {
-    icon: <img src={ibm} className="h-8" />,
+    icon: <img src={ibm} className="h-14" />,
     title: "IBM",
   },
   {
-    icon: <img src={infosys} className="h-8" />,
+    icon: <img src={infosys} className="h-14" />,
     title: "Infosys",
   },
   {
-    icon: <img src={accenture} className="h-8" />,
+    icon: <img src={accenture} className="h-14" />,
     title: "Accenture",
   },
   {
-    icon: <img src={mahindra} className="h-8" />,
+    icon: <img src={mahindra} className="h-14" />,
     title: "Mahindra",
   },
   {
-    icon: <img src={lnt} className="h-8" />,
+    icon: <img src={lnt} className="h-14" />,
     title: "L&T Infotech",
   },
   {
-    icon: <img src={tata} className="h-8" />,
+    icon: <img src={tata} className="h-14" />,
     title: "Tata Consultancy Services",
   },
   {
-    icon: <img src={eicher} className="h-8" />,
+    icon: <img src={eicher} className="h-14" />,
     title: "Eicher",
   },
 ];
@@ -89,8 +96,8 @@ const Doctors = () => {
             viewport={{ once: true, amount: 0.5 }}
             variants={container}
           >
-            {partners.map((benefit: BenefitType) => (
-              <Benefit
+            {partners.map((benefit: PartnerType) => (
+              <Partner
                 key={benefit.title}
                 icon={benefit.icon}
                 title={benefit.title}
@@ -102,10 +109,13 @@ const Doctors = () => {
         </motion.div>
       </section>
 
-      <section id="Doctors" className="mx-auto w-full bg-primary-100 py-20">
+      <section
+        id="ourrecruiters"
+        className="mx-auto w-full bg-primary-100 py-32"
+      >
         <motion.div
           className="mx-auto w-5/6"
-          // onViewportEnter={() => setSelectedPage(SelectedPage.Patron)}
+          // onViewportEnter={() => setSelectedPage(SelectedPage.Recruiter)}
         >
           {/* HEADER */}
           <motion.div

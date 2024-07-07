@@ -20,7 +20,7 @@ import Benefit from "./Benefit";
 const benefits: Array<FacilityType> = [
   {
     icon: <img src={notes} className="h-8" />,
-    title: "Live Notes, Internet Lab",
+    title: "Internet Lab",
   },
   {
     icon: <img src={preClass} className="h-8" />,
@@ -44,11 +44,7 @@ const benefits: Array<FacilityType> = [
   },
   {
     icon: <img src={jobs} className="h-8" />,
-    title: "Jobs",
-  },
-  {
-    icon: <img src={placement} className="h-8" />,
-    title: "Placement",
+    title: "Jobs/Placement",
   },
 ];
 
@@ -65,10 +61,8 @@ type Props = {
 
 const Benefits = ({ setSelectedPage }: Props) => {
   return (
-    <section id="benefits" className="mx-auto min-h-full w-5/6 py-20">
-      <motion.div
-        onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
-      >
+    <section id="aboutus" className="mx-auto min-h-full w-5/6 py-32">
+      <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.About)}>
         {/* HEADER */}
         <motion.div
           className="md:my-5 md:w-3/5"
@@ -82,6 +76,10 @@ const Benefits = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>Our Caring process</HText>
+          <p className="mt-2 text-lg text-primary-500">
+            Our main working process is complete care of students till Job
+            Placement.
+          </p>
           <p className="my-5 text-sm">
             The New Generation spends a lot of time on the internet browsing
             through a lot of websites. They also spend time on social networks
@@ -160,7 +158,12 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-              Our organization help those students who comes from Below the Poverty Line (BPL). Those who are talented but due to lack of resources their talents are not brought to the forefront. We help them get the government provided scholarships for their education. Our organization is already providing many students education with Scholarship according to Government Policies.
+                Our organization help those students who comes from Below the
+                Poverty Line (BPL). Those who are talented but due to lack of
+                resources their talents are not brought to the forefront. We
+                help them get the government provided scholarships for their
+                education. Our organization is already providing many students
+                education with Scholarship according to Government Policies.
               </p>
             </motion.div>
 
